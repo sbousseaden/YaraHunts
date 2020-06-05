@@ -1,6 +1,6 @@
 import "pe" 
 
-rule test {
+rule susp_winsvc_upx {
 meta:
   description = "broad hunt for any PE exporting ServiceMain API and upx packed"
   author = "SBousseaden"
