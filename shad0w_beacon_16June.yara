@@ -1,5 +1,5 @@
 import "pe"
-rule shad0w_beacon_hook { 
+rule shad0w_beacon_16June { 
 meta: 
   description = "Shad0w beacon compressed" 
   author = "SBousseaden" 
