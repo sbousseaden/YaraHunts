@@ -1,7 +1,7 @@
 import "pe"
 rule shad0w_beacon_hook { 
 meta: 
-  description = "Shad0w beacon default suspicous strings" 
+  description = "Shad0w beacon compressed" 
   author = "SBousseaden" 
   reference = "https://github.com/bats3c/shad0w" 
   date = "2020-06-16" 
