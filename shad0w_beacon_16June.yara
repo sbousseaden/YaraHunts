@@ -1,4 +1,3 @@
-import "pe"
 rule shad0w_beacon_16June { 
 meta: 
   description = "Shad0w beacon compressed" 
@@ -10,5 +9,5 @@ strings:
   $s2 = {33 2E 39 36 00 ?? ?? ?? 21 0D 24 0E 0A}
   $s3 = "VirtualProtect"
   $s4 = "GetProcAddress"
-condition: uint16(0) == 0x5a4d and all of ($s*) and pe.sections[0].name != "text"
+condition: uint16(0) == 0x5a4d and all of ($s*) 
 }
