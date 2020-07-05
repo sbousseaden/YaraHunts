@@ -8,6 +8,6 @@ strings:
 // mov eax,syscall#
 // syscall
 // ret
-    $s1 = {(49 89 CA|4C 8B D1) B8 ?? 00 00 00 0F 05 C3 00} 
+    $s1 = {(49 89 CA|4C 8B D1) B8 ?? 00 00 00 0F 05 C3} 
 condition: uint16(0)==0x5a4d and #s1 > 3
 }
