@@ -8,5 +8,5 @@ strings:
  $s1 = {4D 5A 90 00 03 00 00 00 04 00 00 00 FF FF 00 00}
  $s2 = "!This program cannot be run in DOS mode." base64
  $s3 = "!This program cannot be run in DOS mode." xor
-condition: $hvhd at 0 and any of ($s*) and filesize < 25MB
+condition: $hvhd at 0 and any of ($s*) and filesize <= 20MB
 }
