@@ -28,7 +28,6 @@ strings:
  $edrB19 = "CiscoAMPCEFWDriver.sys" base64  // Cisco AMP
  $edrB20 = "CiscoAMPHeurDriver.sys" base64  // Cisco
  // base64 on wide
- // base64 encoded
  $edrBW1 = "cbstream.sys" base64 wide // Carbon Black
  $edrBW2 = "carbonblackk.sys" base64 wide // Carbon Black
  $edrBW3 = "CyOptics.sys" base64 wide // Cylance
