@@ -5,7 +5,7 @@ meta:
   date = "2020-07-05" 
 strings:
 // mov r10,rcx
-// mov eax,syscall#
+// mov eax,syscallid
 // syscall
 // ret
     $s1 = {(49 89 CA|4C 8B D1) B8 ?? ?? ?? ?? 0F 05 C3} 
