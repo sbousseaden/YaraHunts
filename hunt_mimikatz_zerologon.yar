@@ -2,7 +2,7 @@ rule ZerloLogon_Mimikatz {
 meta:
  description = "Hunting rule for Mimikatz Implementation of ZeroLogon PrivEsc Exploit"
  author = "SBousseaden"
- date = "17/07/2020"
+ date = "17/09/2020"
  reference1 = "https://github.com/SecuraBV/CVE-2020-1472"
  reference2 = "https://github.com/gentilkiwi/mimikatz/releases/tag/2.2.0-20200916"
 strings:
