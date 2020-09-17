@@ -1,6 +1,6 @@
 rule ZerloLogon_Mimikatz {
 meta:
- description = "Hunting rule for Mimikatz Implementation of ZeroLogon PrivEsc Exploit"
+ description = "Generic Hunting rule for Mimikatz Implementation of ZeroLogon PrivEsc Exploit"
  author = "SBousseaden"
  date = "17/09/2020"
  reference1 = "https://github.com/SecuraBV/CVE-2020-1472"
