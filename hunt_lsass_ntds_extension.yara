@@ -2,6 +2,7 @@ import "pe"
 rule hunt_lsass_ntds_ext {
 meta:
  author = "SBousseaden"
+ date = "09/10/2020"
  description = "hunting rule for necessary exports in a DLL that can be abused for persistence or alike by loading it into lsass via NTDS registry"
  reference = "https://blog.xpnsec.com/exploring-mimikatz-part-1/"
 // FPs can be excluded accordingly
