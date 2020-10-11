@@ -4,6 +4,7 @@ rule susp_msoffice_addins_wxll {
 meta:
  author = "SBousseaden"
  date = "11/10/2020"
+ description = "hunt for suspicious MS Office Addins with code injection capabilities"
  reference = "https://twitter.com/JohnLaTwC/status/1315287078855352326"
 strings:
  $inj1 = "WriteProcessMemory"
