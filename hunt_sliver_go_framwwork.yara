@@ -1,5 +1,5 @@
 import "pe"
-rule GOSilver {
+rule GOSliver {
 meta:
  author = "SBousseaden"
  reference = "https://github.com/BishopFox/sliver"
