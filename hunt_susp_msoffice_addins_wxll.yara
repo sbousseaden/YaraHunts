@@ -22,6 +22,7 @@ strings:
  $inj13 = "NtQueueApcThread"
  $inj14 = "NtQueueApcThreadEx"
  $inj15 = "CreateRemoteThread"
- $inj16 = "RtlCreateUserThread"
+ $inj16 = "NtCreateThreadEx"
+ $inj17 = "RtlCreateUserThread"
 condition: uint16(0) == 0x5a4d and (pe.exports("wlAutoOpen") or pe.exports("xlAutoOpen")) and 3 of ($inj*)
 }
