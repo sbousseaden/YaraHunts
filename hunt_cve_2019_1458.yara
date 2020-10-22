@@ -4,7 +4,7 @@ meta:
  reference = "https://github.com/unamer/CVE-2019-1458"
 strings:
  $s1 = "RtlGetVersion"
- $s2 = {45 33 C9 BA03 80 00 00 33 C9}	
+ $s2 = {45 33 C9 BA 03 80 00 00 33 C9}	
  $s3 = "SploitWnd"
  $s4 = "CreateWindowExW"
  $s5 = "GetKeyboardState"
