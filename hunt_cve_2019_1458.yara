@@ -5,7 +5,7 @@ meta:
 strings:
  $s1 = "RtlGetVersion"
  $s2 = {45 33 C9 BA 03 80 00 00 33 C9}	
- $s3 = "SploitWnd"
+ $s3 = "SploitWnd" // optional
  $s4 = "CreateWindowExW"
  $s5 = "GetKeyboardState"
  $s6 = "SetKeyboardState"
