@@ -2,6 +2,7 @@ rule hunt_skyproj_backdoor {
 meta:
  author = "SBousseaden"
  date = "24-10-2020"
+ reference = "https://twitter.com/SBousseaden/status/1320005809695264769"
  hash = "9F64EC0C41623E5162E51D7631B1D29934B76984E9993083BDBDABFCCBA4D300"
  hash = "F48CC6F80A0783867D2F4F0E76A6B2C29D993A2D5072AA10319B48FC398D8B7A"
  hash = "7ac73f2e5ea0ca430cf21738d3854b8a5b6a25ae4a85d140fc7e96cb87f7e2ea"
