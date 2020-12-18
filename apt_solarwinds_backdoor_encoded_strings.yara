@@ -2,7 +2,8 @@ rule APT_Solarwind_Backdoor_Encoded_Strings {
 meta: 
  author = "SBousseaden"
  description = "This rule is looking for some key encoded strings of the SUNBURST backdoor"
- hash = "846E27A652A5E1BFBD0DDD38A16DC865"
+ md5 = "846E27A652A5E1BFBD0DDD38A16DC865"
+ sha2 = "ce77d116a074dab7a22a0fd4f2c1ab475f16eec42e1ded3c0b0aa8211fe858d6"
  date = "14/12/2020"
  reference = "https://www.fireeye.com/blog/threat-research/2020/12/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor.html"
 strings:
