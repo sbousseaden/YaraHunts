@@ -25,5 +25,5 @@ strings:
  $inj16 = "CreateRemoteThread"
  $inj17 = "NtCreateThreadEx"
  $inj18 = "RtlCreateUserThread"
-condition: uint16(0) == 0x5a4d and (pe.exports("wlAutoOpen") or pe.exports("xlAutoOpen")) and 3 of ($inj*)
+condition: uint16(0) == 0x5a4d and (pe.exports("wdAutoOpen") or pe.exports("xlAutoOpen")) and 3 of ($inj*)
 }
